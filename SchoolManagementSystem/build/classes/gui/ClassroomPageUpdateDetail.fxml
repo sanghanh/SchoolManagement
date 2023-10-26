@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="259.0" prefWidth="288.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ClassroomPageUpdateDetailController">
+   <children>
+      <Label layoutX="34.0" layoutY="51.0" prefHeight="25.0" prefWidth="70.0" text="Mã lớp học" />
+      <TextField fx:id="idText" editable="false" layoutX="125.0" layoutY="51.0" />
+      <Label alignment="CENTER" layoutX="81.0" layoutY="14.0" prefHeight="25.0" prefWidth="126.0" text="Sửa lớp học">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font></Label>
+      <TextField fx:id="nameText" layoutX="125.0" layoutY="96.0" />
+      <Label layoutX="34.0" layoutY="96.0" prefHeight="25.0" prefWidth="70.0" text="Tên lớp học" />
+      <Label layoutX="34.0" layoutY="147.0" prefHeight="25.0" prefWidth="70.0" text="Giáo viên" />
+      <ComboBox fx:id="cbTeacher" layoutX="125.0" layoutY="147.0" prefWidth="150.0" />
+      <Button fx:id="classroomBtn" layoutX="125.0" layoutY="213.0" mnemonicParsing="false" onAction="#classroomBtnClicked" prefHeight="25.0" prefWidth="149.0" text="Sửa" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="297.0" prefWidth="308.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.StudentPageUpdateDetailController">
+   <children>
+      <Label alignment="CENTER" layoutX="81.0" layoutY="14.0" prefHeight="25.0" prefWidth="126.0" text="Sửa học sinh">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font></Label>
+      <TextField fx:id="firstNameText" layoutX="118.0" layoutY="101.0" prefHeight="25.0" prefWidth="163.0" />
+      <Label layoutX="27.0" layoutY="101.0" prefHeight="25.0" prefWidth="70.0" text="Họ" />
+      <Label layoutX="27.0" layoutY="139.0" prefHeight="25.0" prefWidth="70.0" text="Tên" />
+      <Button fx:id="classroomBtn" layoutX="118.0" layoutY="250.0" mnemonicParsing="false" onAction="#classroomBtnClicked" prefHeight="25.0" prefWidth="163.0" text="Sửa" />
+      <TextField fx:id="lastNameText" layoutX="118.0" layoutY="139.0" prefHeight="25.0" prefWidth="163.0" />
+      <TextField fx:id="emailText" editable="false" layoutX="118.0" layoutY="177.0" prefHeight="25.0" prefWidth="163.0" />
+      <Label layoutX="27.0" layoutY="177.0" prefHeight="25.0" prefWidth="70.0" text="Email" />
+      <Label layoutX="27.0" layoutY="211.0" prefHeight="25.0" prefWidth="70.0" text="Số điện thoại" />
+      <TextField fx:id="phoneText" layoutX="118.0" layoutY="211.0" prefHeight="25.0" prefWidth="163.0" />
+      <Label layoutX="27.0" layoutY="64.0" prefHeight="25.0" prefWidth="70.0" text="Mã học sinh" />
+      <TextField fx:id="idText" editable="false" layoutX="118.0" layoutY="64.0" prefHeight="25.0" prefWidth="163.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.StatisticPageController">
+    <children>
+        <TableView fx:id="table" layoutY="74.0" prefHeight="324.0" prefWidth="600.0">
+            <columns>
+                <TableColumn fx:id="classroomName" prefWidth="75.0" text="Tên lớp học" />
+                <TableColumn fx:id="courseName" prefWidth="75.0" text="Tên môn học" />
+                <TableColumn fx:id="studentName" prefWidth="75.0" text="Tên học sinh" />
+                <TableColumn fx:id="rank" prefWidth="75.0" text="Loại học sinh" />
+            </columns>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+        </TableView>
+        <Label layoutX="45.0" layoutY="44.0" text="Loại học sinh:" />
+        <Button fx:id="searchBtn" layoutX="300.0" layoutY="40.0" mnemonicParsing="false" onAction="#searchBtnClicked" text="Tìm kiếm" />
+      <Label layoutX="45.0" layoutY="10.0" text="Tên lớp học:" />
+      <TextField fx:id="searchText" layoutX="132.0" layoutY="6.0" />
+      <ComboBox fx:id="cbRank" layoutX="132.0" layoutY="40.0" prefWidth="150.0" />
+    </children>
+</AnchorPane>

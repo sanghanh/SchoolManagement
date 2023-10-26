@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="238.0" prefWidth="288.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.EnrollmentPageDetailController">
+    <children>
+        <Label alignment="CENTER" layoutX="69.0" layoutY="14.0" prefHeight="25.0" prefWidth="150.0" text="Thêm phiếu đăng ký">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font></Label>
+        <Label layoutX="36.0" layoutY="108.0" prefHeight="25.0" prefWidth="70.0" text="Môn học" />
+        <ComboBox fx:id="cbCourse" layoutX="127.0" layoutY="108.0" prefWidth="150.0" />
+        <Button fx:id="enrollmentBtn" layoutX="128.0" layoutY="194.0" mnemonicParsing="false" onAction="#enrollmentBtnClicked" prefHeight="25.0" prefWidth="149.0" text="Thêm" />
+      <ComboBox fx:id="cbStudent" layoutX="127.0" layoutY="148.0" prefWidth="150.0" />
+      <Label layoutX="36.0" layoutY="148.0" prefHeight="25.0" prefWidth="70.0" text="Học sinh" />
+      <ComboBox fx:id="cbClassroom" layoutX="127.0" layoutY="68.0" prefWidth="150.0" />
+      <Label layoutX="36.0" layoutY="68.0" prefHeight="25.0" prefWidth="70.0" text="Lớp học" />
+    </children>
+</AnchorPane>

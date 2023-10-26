@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.EnrollmentPageController">
+    <children>
+        <TableView fx:id="table" layoutY="74.0" prefHeight="324.0" prefWidth="508.0">
+            <columns>
+                <TableColumn fx:id="id" prefWidth="75.0" text="Mã đăng ký" />
+                <TableColumn fx:id="studentName" prefWidth="75.0" text="Tên học sinh" />
+                <TableColumn fx:id="courseName" prefWidth="75.0" text="Tên môn học" />
+                <TableColumn fx:id="classroomName" prefWidth="75.0" text="Tên lớp học" />
+                <TableColumn fx:id="score" prefWidth="75.0" text="Điểm số" />
+            </columns>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+        </TableView>
+        <Button fx:id="addBtn" layoutX="523.0" layoutY="110.0" mnemonicParsing="false" onAction="#addBtnClicked" prefHeight="25.0" prefWidth="60.0" text="Thêm" />
+        <Button fx:id="updateBtn" layoutX="523.0" layoutY="159.0" mnemonicParsing="false" onAction="#updateBtnClicked" prefHeight="25.0" prefWidth="60.0" text="Sửa" />
+        <Button fx:id="deleteBtn" layoutX="524.0" layoutY="211.0" mnemonicParsing="false" onAction="#deleteBtnClicked" prefHeight="25.0" prefWidth="60.0" text="Xóa" />
+        <TextField fx:id="searchText" layoutX="123.0" layoutY="27.0" />
+        <Label layoutX="36.0" layoutY="31.0" text="Tên lớp học:" />
+        <Button fx:id="searchBtn" layoutX="300.0" layoutY="27.0" mnemonicParsing="false" onAction="#searchBtnClicked" text="Tìm kiếm" />
+    </children>
+</AnchorPane>

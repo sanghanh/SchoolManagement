@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.LoginPageController">
+    <children>
+        <Button fx:id="loginBtn" layoutX="103.0" layoutY="147.0" onAction="#loginAction" text="Đăng nhập" />
+        <Button fx:id="registerBtn" layoutX="183.0" layoutY="147.0" onAction="#registerAction" text="Đăng ký" />
+        <Label layoutX="45.0" layoutY="26.0" minHeight="16" minWidth="69" text="Hệ thống quản lý trường học">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font></Label>
+        <TextField fx:id="emailText" layoutX="103.0" layoutY="65.0" />
+        <PasswordField fx:id="passwordText" layoutX="103.0" layoutY="100.0" />
+        <Label layoutX="25.0" layoutY="69.0" text="Email" />
+        <Label layoutX="25.0" layoutY="104.0" text="Mật khẩu" />
+    </children>
+</AnchorPane>

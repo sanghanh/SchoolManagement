@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.HomePageController">
+   <children>
+      <Button fx:id="studentManageBtn" layoutX="117.0" layoutY="42.0" mnemonicParsing="false" onAction="#studentManageClicked" prefHeight="25.0" prefWidth="366.0" text="Quản lý học sinh" />
+      <Button fx:id="classroomManageBtn" layoutX="117.0" layoutY="87.0" mnemonicParsing="false" onAction="#classroomClicked" prefHeight="25.0" prefWidth="366.0" text="Quản lý lớp học" />
+      <Button fx:id="courseManageBtn" layoutX="117.0" layoutY="130.0" mnemonicParsing="false" onAction="#courseClicked" prefHeight="25.0" prefWidth="366.0" text="Quản lý môn học" />
+      <Button fx:id="statisticBtn" layoutX="117.0" layoutY="219.0" mnemonicParsing="false" onAction="#statisticClicked" prefHeight="25.0" prefWidth="366.0" text="Thống kê" />
+      <Button fx:id="enrollmentBtn" layoutX="117.0" layoutY="175.0" mnemonicParsing="false" onAction="#enrollmentClicked" prefHeight="25.0" prefWidth="366.0" text="Quản lý học sinh trong lớp học" />
+   </children>
+</AnchorPane>

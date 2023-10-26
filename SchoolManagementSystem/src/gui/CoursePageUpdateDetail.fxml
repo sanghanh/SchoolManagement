@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="331.0" prefWidth="288.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.CoursePageUpdateDetailController">
+   <children>
+      <Label layoutX="34.0" layoutY="51.0" prefHeight="25.0" prefWidth="70.0" text="Mã lớp học" />
+      <TextField fx:id="idText" editable="false" layoutX="125.0" layoutY="51.0" />
+      <Label alignment="CENTER" layoutX="81.0" layoutY="14.0" prefHeight="25.0" prefWidth="126.0" text="Sửa môn học">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font></Label>
+      <TextField fx:id="nameText" layoutX="125.0" layoutY="96.0" />
+      <Label layoutX="34.0" layoutY="96.0" prefHeight="25.0" prefWidth="70.0" text="Tên môn học" />
+      <Label layoutX="34.0" layoutY="147.0" prefHeight="25.0" prefWidth="70.0" text="Mô tả" />
+      <Button fx:id="classroomBtn" layoutX="125.0" layoutY="287.0" mnemonicParsing="false" onAction="#classroomBtnClicked" prefHeight="25.0" prefWidth="149.0" text="Sửa" />
+      <TextArea fx:id="descriptionText" layoutX="125.0" layoutY="147.0" prefHeight="114.0" prefWidth="149.0" />
+   </children>
+</AnchorPane>
